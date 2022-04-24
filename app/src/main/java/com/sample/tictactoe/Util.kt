@@ -1,4 +1,4 @@
-package com.sample.tictactor
+package com.sample.tictactoe
 
 import java.util.*
 import kotlin.collections.ArrayList
