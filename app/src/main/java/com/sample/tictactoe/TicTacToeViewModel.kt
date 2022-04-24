@@ -1,14 +1,14 @@
-package com.sample.tictactor
+package com.sample.tictactoe
 
 import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.sample.tictactor.TicTacToeUtil.PLAYER_O
-import com.sample.tictactor.TicTacToeUtil.PLAYER_X
-import com.sample.tictactor.TicTacToeUtil.isBoardFull
-import com.sample.tictactor.TicTacToeUtil.isGameWon
+import com.sample.tictactoe.TicTacToeUtil.PLAYER_O
+import com.sample.tictactoe.TicTacToeUtil.PLAYER_X
+import com.sample.tictactoe.TicTacToeUtil.isBoardFull
+import com.sample.tictactoe.TicTacToeUtil.isGameWon
 
 class TicTacToeViewModel :ViewModel() {
 
