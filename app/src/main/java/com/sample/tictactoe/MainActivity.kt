@@ -31,7 +31,6 @@ import com.sample.tictactoe.ui.theme.TicTacToeTheme
 class MainActivity : ComponentActivity() {
 
     private val ticTacToeViewModel by viewModels<TicTacToeViewModel>()
-    @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
