@@ -35,3 +35,26 @@ Viewmodel data:
 1. ticTacToeViewModel.play(index) is called when we click on a cell -> updates the index with X (ticTacToeViewModel.board[index])and also computes where the computer needs to enter O
 2. ticTacToeViewModel.isGameOver -> checks if the game is over
 3. ticTacToeViewModel.winner -> lets u know who is the winner 
+
+        
+        //Alert Dialog for endresult:
+          if (ticTacToeViewModel.isGameOver) {
+            AlertDialog(
+                onDismissRequest = {
+                },
+                title = {
+                    Text(text = "TicTacToe Winner")
+                },
+                text = {
+                    Text("${ticTacToeViewModel.winner} ")
+                },
+                confirmButton = {
+                    Button(
+                        onClick = {
+                            ticTacToeViewModel.reset()
+                        }) {
+                        Text("Play Again")
+                    }
+                }
+            )
+        }
