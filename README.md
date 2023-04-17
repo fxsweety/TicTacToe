@@ -7,9 +7,13 @@ When you first build the app, you would see the below screen
 
 Now we work on changing the view to Tic Tac Toe view:
 Open the TicTacToeScreen class
+
 Remove the Text inside the function TicTacToeScreen()
+
 Create a GridView -> LazyVerticalGrid
+
 Set Column = Fixed cell size (3) 
+
 Contents -> within the VerticalGridScope, consume the viewmodel data and print
 
 
