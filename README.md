@@ -1,5 +1,9 @@
 # TicTacToe
 
+When you first build the app, you would see the below screen
+![start](https://user-images.githubusercontent.com/7736034/232597177-08f266b5-9e02-49fb-a6bd-c45fe08fe102.png)
+
+Now we work on changing the view to Tic Tac Toe view:
 Open the TicTacToeScreen class
 Remove the Text inside the function TicTacToeScreen()
 Create a GridView -> LazyVerticalGrid
