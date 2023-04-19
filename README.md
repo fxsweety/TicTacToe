@@ -70,6 +70,7 @@ Viewmodel data:
         }
 
 Final completed view:
-https://user-images.githubusercontent.com/7736034/232937426-1df7d537-d2b8-4aa0-bfa6-1d1af87aa261.mp4
+
+[tic.webm](https://user-images.githubusercontent.com/7736034/232937600-8f78281c-8410-4834-87df-346576582411.webm)
 
 
