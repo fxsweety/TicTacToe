@@ -68,3 +68,8 @@ Viewmodel data:
                 }
             )
         }
+
+Final completed view:
+https://user-images.githubusercontent.com/7736034/232937426-1df7d537-d2b8-4aa0-bfa6-1d1af87aa261.mp4
+
+
